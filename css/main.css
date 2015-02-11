@@ -12,25 +12,26 @@
 	padding: 0;
 	background-size: 1600px auto;
 	min-height: 600px;
-        background: url(../img/5591820123_2048_c1.jpg) top no-repeat;
-        background-size: 100%;
+  background: url(../img/5591820123_2048_c1.jpg) top no-repeat;
+  background-size: 100%;
 	background-color: #d2c8bf;
 	color: white;
 }
 
-#food {
-	background-color: #cbb345;
+.stripe { 
+  min-height: 200px;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  color: white;
 }
 
-#beer {
-	background-color: #c93312;
-		color: #fcf5e3;
-}
-
-#entertainment {
-	background-color: #2e3831;
-	color: #fcf5e3;
-}
+#stripe1 { background-color: #410405; }
+/* #stripe2 { background-color: #F1CC4E; } */
+#stripe2 { background-color: #222222; }
+#stripe3 { background-color: #F1CC4E; }
+#stripe4 { background-color: #F4A949; }
+#stripe5 { background-color: #F57245; }
+#stripe6 { background-color: #8C1612; }
 
 .jumbotron {
 	margin-bottom: 0px; 
