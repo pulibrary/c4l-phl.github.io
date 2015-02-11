@@ -7,6 +7,7 @@
 body {
 	font-family: "Alegreya",Georgia,Times,serif;
 	font-size: 2em;
+	 color: #fcf5e3;
 }
 
 h1, h2, h3, h4, h5 {
@@ -28,17 +29,21 @@ li {
 	padding: 0;
 	background-size: 1600px auto;
 	min-height: 600px;
-  background: url(../img/5591820123_2048_c1.jpg) top no-repeat;
-  background-size: 100%;
+  	background: url(../img/5591820123_2048_c1.jpg) top no-repeat;
+  	background-size: 100%;
 	background-color: #d2c8bf;
-	color: white;
 }
 
 .stripe { 
   min-height: 200px;
   padding-top: 20px;
   padding-bottom: 30px;
-  color: white;
+  color: #fcf5e3;
+}
+
+/* lighter backgrounds need dark text */
+.light {
+  color: #333333;
 }
 
 #stripe1 { background-color: #410405; }
