@@ -7,14 +7,37 @@
 
 
 
+/* https://www.flickr.com/photos/frigidlightphoto/14552114769 */
+#main {
+	padding: 0;
+	background-size: 1600px auto;
+	min-height: 600px;
+	background: url(../img/philly_skyline_med.jpg) bottom no-repeat;
+	background-color: #d2c8bf;
+	color: white;
+}
 
+#food {
+	background-color: #cbb345;
+}
 
+#beer {
+	background-color: #c93312;
+		color: #fcf5e3;
+}
 
+#entertainment {
+	background-color: #2e3831;
+	color: #fcf5e3;
+}
 
+.jumbotron {
+	margin-bottom: 0px; 
+}
 
-
-
-
+.cols {
+	margin: 20px 0 20px 0;
+}
 
 
 
