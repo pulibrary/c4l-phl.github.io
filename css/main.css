@@ -4,8 +4,24 @@
    Author's custom styles
    ========================================================================== */
 
+body {
+	font-family: "Alegreya",Georgia,Times,serif;
+	font-size: 2em;
+}
 
+h1, h2, h3, h4, h5 {
+	font-family: "Alegreya SC","Alegreya",Georgia,Times,serif;
+	font-weight: normal;
+	letter-spacing: .02em;
+}
 
+p {
+	line-height: 2em;
+}
+
+li {
+	padding: .3em;
+}
 
 /* https://www.flickr.com/photos/frigidlightphoto/14552114769 */
 #main {
