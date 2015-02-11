@@ -12,7 +12,8 @@
 	padding: 0;
 	background-size: 1600px auto;
 	min-height: 600px;
-	background: url(../img/philly_skyline_med.jpg) bottom no-repeat;
+        background: url(../img/5591820123_2048_c1.jpg) top no-repeat;
+        background-size: 100%;
 	background-color: #d2c8bf;
 	color: white;
 }
