@@ -51,8 +51,10 @@ li {
 /* #stripe2 { background-color: #F1CC4E; } */
 #stripe2 { background-color: #222222; }
 #stripe3 { background-color: #F1CC4E; }
-#stripe4 { background-color: #F4A949; }
-#stripe5 { background-color: #F57245; }
+/* #stripe4 { background-color: #F4A949; } */
+#stripe4 { background-color: #444444; }
+/* #stripe5 { background-color: #F4A949; } */
+#stripe5 { background-color: #F4A949; }
 #stripe6 { background-color: #8C1612; }
 
 .jumbotron {
