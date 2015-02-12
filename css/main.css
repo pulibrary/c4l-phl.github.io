@@ -35,6 +35,14 @@ li {
   color: #fcf5e3;
 }
 
+#main h1 {
+  margin-bottom:0px;
+}
+
+#main h2 {
+  margin-top:0px;
+}
+
 .section {
   min-height: 200px;
   padding: 20px 50px 30px 50px;
