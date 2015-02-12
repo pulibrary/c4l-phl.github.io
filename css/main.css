@@ -76,6 +76,9 @@ h2.stripe {
 }
 
 .attribution {
+  background-color: #000;
+  color: #9d9d9d;
+/*
 	position: absolute;
 	bottom: 27px;
 	right: 0;
@@ -88,6 +91,7 @@ h2.stripe {
 	background: rgba(65, 4, 5,0.5);
 	padding: 0.5em;
 	font-size: .6em;
+*/
 }
 
 
