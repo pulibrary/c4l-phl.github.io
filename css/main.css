@@ -7,7 +7,7 @@
 body {
 	font-family: "Alegreya",Georgia,Times,serif;
 	font-size: 2em;
-	 color: #fcf5e3;
+	color: #222222;
 }
 
 h1, h2, h3, h4, h5 {
@@ -29,16 +29,21 @@ li {
 	padding: 0;
 	background-size: 1600px auto;
 	min-height: 600px;
-  	background: url(../img/5591820123_2048_c1.jpg) top no-repeat;
-  	background-size: 100%;
+  background: url(../img/5591820123_2048_c1.jpg) top no-repeat;
+	background-size: 100%;
 	background-color: #d2c8bf;
 }
 
-.stripe { 
+.section {
   min-height: 200px;
-  padding-top: 20px;
-  padding-bottom: 30px;
   padding: 20px 50px 30px 50px;
+}
+
+h2.stripe {
+  padding: 10px 20px 15px;
+}
+
+.stripe {
   color: #fcf5e3;
 }
 
@@ -47,15 +52,11 @@ li {
   color: #333333;
 }
 
-#stripe1 { background-color: #410405; }
-/* #stripe2 { background-color: #F1CC4E; } */
-#stripe2 { background-color: #222222; }
-#stripe3 { background-color: #F1CC4E; }
-/* #stripe4 { background-color: #F4A949; } */
-#stripe4 { background-color: #444444; }
-/* #stripe5 { background-color: #F4A949; } */
-#stripe5 { background-color: #F4A949; }
-#stripe6 { background-color: #8C1612; }
+.stripe1 { background-color: #410405; }
+.stripe2 { background-color: #F1CC4E; }
+.stripe3 { background-color: #F4A949; }
+.stripe4 { background-color: #A51212; }
+
 
 .jumbotron {
 	margin-bottom: 0px; 
