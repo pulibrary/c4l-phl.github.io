@@ -48,12 +48,9 @@ li {
   padding: 20px 50px 30px 50px;
 }
 
-h2.stripe {
-  padding: 10px 20px 15px;
-}
-
 .stripe {
   color: #fcf5e3;
+  padding: 10px 20px 15px;
 }
 
 /* lighter backgrounds need dark text */
