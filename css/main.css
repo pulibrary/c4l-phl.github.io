@@ -7,7 +7,7 @@
 body {
 	font-family: "Alegreya",Georgia,Times,serif;
 	font-size: 2em;
-	 color: #fcf5e3;
+	color: #222222;
 }
 
 h1, h2, h3, h4, h5 {
@@ -29,16 +29,43 @@ li {
 	padding: 0;
 	background-size: 1600px auto;
 	min-height: 600px;
-  	background: url(../img/5591820123_2048_c1.jpg) top no-repeat;
-  	background-size: 100%;
+  background: url(../img/5591820123_2048_c1.jpg) top no-repeat;
+	background-size: 100%;
 	background-color: #d2c8bf;
+  color: #fcf5e3;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.8);
 }
 
-.stripe { 
+  @media (max-width: 850px) {
+    #main {
+            min-height: 200px;
+	 } }
+
+  @media (min-width: 850px) and (max-width: 1260px) {
+    #main {
+      min-height: 400px;
+	 } }
+
+
+
+#main h1 {
+  margin-bottom:0px;
+}
+
+#main h2 {
+  margin-top:0px;
+}
+
+.section {
   min-height: 200px;
-  padding-top: 20px;
-  padding-bottom: 30px;
   padding: 20px 50px 30px 50px;
+}
+
+h2.stripe {
+  padding: 10px 20px 15px;
+}
+
+.stripe {
   color: #fcf5e3;
 }
 
@@ -47,13 +74,11 @@ li {
   color: #333333;
 }
 
-#stripe1 { background-color: #410405; }
-/* #stripe2 { background-color: #F1CC4E; } */
-#stripe2 { background-color: #222222; }
-#stripe3 { background-color: #F1CC4E; }
-#stripe4 { background-color: #F4A949; }
-#stripe5 { background-color: #F57245; }
-#stripe6 { background-color: #8C1612; }
+.stripe1 { background-color: #410405; }
+.stripe2 { background-color: #F1CC4E; }
+.stripe3 { background-color: #F4A949; }
+.stripe4 { background-color: #A51212; }
+
 
 .jumbotron {
 	margin-bottom: 0px; 
@@ -64,18 +89,8 @@ li {
 }
 
 .attribution {
-	position: absolute;
-	bottom: 27px;
-	right: 0;
-	margin-top: 1em;
-	text-align: center;
-	float: right;
-	margin-left: 0;
-	margin-right: 1.66667%;
-	clear: none;
-	background: rgba(65, 4, 5,0.5);
-	padding: 0.5em;
-	font-size: .6em;
+  background-color: #000;
+  color: #9d9d9d;
+  padding-right:10px;
 }
-
 
