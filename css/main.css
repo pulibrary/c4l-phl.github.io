@@ -38,7 +38,7 @@ li {
 
   @media (max-width: 850px) {
     #main {
-            min-height: 200px;
+            min-height: 180px;
 	 } }
 
   @media (min-width: 850px) and (max-width: 1260px) {
@@ -87,7 +87,20 @@ li {
 
 .attribution {
   background-color: #000;
-  color: #9d9d9d;
+  color: #fcf5e3;
   padding-right:10px;
+}
+
+.attribution a{
+  color: #d2c8bf;
+}
+
+.attribution p{
+  line-height: 1em;
+  margin-top: 10px;
+}
+
+.subcategories {
+	margin-left:20px;
 }
 
