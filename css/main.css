@@ -62,7 +62,6 @@ li {
 }
 
 .stripe {
-  color: #fcf5e3;
   padding: 10px 20px 15px;
 }
 
@@ -71,9 +70,15 @@ li {
   color: #333333;
 }
 
-.stripe1 { background-color: #410405; }
+.stripe1 {
+  background-color: #410405;
+  color: #fcf5e3;
+}
 .stripe2 { background-color: #F1CC4E; }
-.stripe3 { background-color: #F4A949; }
+.stripe3 {
+  background-color: #F4A949;
+  color: #fdfaf1;
+}
 .stripe4 { background-color: #A51212; }
 
 
